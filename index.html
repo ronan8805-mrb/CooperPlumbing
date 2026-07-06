@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Cooper Plumbing & Heating — Trusted plumbing, heating, and renewable energy experts serving Drogheda, Co. Louth for over 25 years.">
   <title>Cooper Plumbing & Heating | Drogheda Plumbing & Heating Experts</title>
+  <link rel="preload" href="images/hero-plumbing.jpg" as="image" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -55,63 +56,45 @@
 
   <main>
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="hero-badge">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.745 3.745 0 013.296-1.043A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
-            </svg>
-            Established 1998 · Serving Louth & Meath
-          </div>
-          <h1>28 Years of Trusted Plumbing &amp; Heating Experts in Drogheda</h1>
-          <p class="hero-sub">Your local specialists for reliable plumbing, emergency repairs, and renewable energy upgrades. From burst pipes to solar panel installations — we deliver honest, professional service you can count on.</p>
-          <div class="hero-actions">
-            <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
-            <a href="tel:+353872533204" class="btn btn-secondary">Emergency Callout</a>
-          </div>
-          <div class="hero-stats">
-            <div class="hero-stat">
-              <strong>28+</strong>
-              <span>Years Experience</span>
-            </div>
-            <div class="hero-stat">
-              <strong>7 Days</strong>
-              <span>9 AM – 6 PM</span>
-            </div>
-            <div class="hero-stat">
-              <strong>100%</strong>
-              <span>Word-of-Mouth Reputation</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <div class="hero-card">
-            <div class="hero-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17l-5.1-2.73a1 1 0 01-.58-.92V6.5a1 1 0 01.58-.92l5.1-2.73a1 1 0 01.84 0l5.1 2.73a1 1 0 01.58.92v5.02a1 1 0 01-.58.92l-5.1 2.73a1 1 0 01-.84 0z"/>
+      <div class="hero-layout">
+        <figure class="hero-image-wrap">
+          <img
+            src="images/hero-plumbing.jpg"
+            alt="Professional plumber servicing a heating and pipework system"
+            class="hero-image"
+            width="1200"
+            height="800"
+            fetchpriority="high"
+            decoding="async">
+        </figure>
+        <div class="hero-body">
+          <div class="container hero-content">
+            <div class="hero-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.745 3.745 0 013.296-1.043A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
               </svg>
+              Established 1998 · Serving Louth &amp; Meath
             </div>
-            <h3>Why Choose Cooper?</h3>
-            <p>Director John Cooper and his team bring decades of hands-on expertise to every job — big or small.</p>
-            <ul class="hero-card-features">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
-                Transparent, fair pricing
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
-                Emergency response available
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
-                SEAI-aligned renewable solutions
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
-                Fully certified &amp; experienced
-              </li>
-            </ul>
+            <h1>28 Years of Trusted Plumbing &amp; Heating Experts in Drogheda</h1>
+            <p class="hero-sub">Your local specialists for reliable plumbing, emergency repairs, and renewable energy upgrades. From burst pipes to solar panel installations — we deliver honest, professional service you can count on.</p>
+            <div class="hero-actions">
+              <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+              <a href="tel:+353872533204" class="btn btn-secondary">Emergency Callout</a>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <strong>28+</strong>
+                <span>Years Experience</span>
+              </div>
+              <div class="hero-stat">
+                <strong>7 Days</strong>
+                <span>9 AM – 6 PM</span>
+              </div>
+              <div class="hero-stat">
+                <strong>100%</strong>
+                <span>Word-of-Mouth</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -272,6 +255,16 @@
       </div>
     </div>
   </footer>
+
+  <aside class="mobile-call-bar" aria-label="Quick contact">
+    <a href="tel:+353872533204" class="mobile-call-bar-btn mobile-call-bar-btn--primary">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/>
+      </svg>
+      Call Now
+    </a>
+    <a href="contact.html" class="mobile-call-bar-btn mobile-call-bar-btn--secondary">Get Quote</a>
+  </aside>
 
   <script src="js/main.js"></script>
 </body>
